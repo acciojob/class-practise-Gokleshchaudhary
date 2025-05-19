@@ -1,15 +1,22 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Class Selector Exercise</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        .selector {
+            color: #00f;          /* Font color */
+            background-color: #eee; /* Background color */
+            font-family: Arial;   /* Font family */
+            font-size: 20px;      /* Font size */
+        }
+    </style>
 </head>
 <body>
-    <p class="selector">This is paragraph 1 with the selector class applied. It will have blue text, gray background, Arial font, and 20px size.</p>
-    <p>This is paragraph 2 without any class. It will maintain default styling.</p>
-    <p class="selector">This is paragraph 3 with the selector class applied. It will have the same styling as paragraph 1.</p>
-    <p>This is paragraph 4 without any class. It will maintain default styling like paragraph 2.</p>
+    <p class="selector">This is Paragraph 1 with the class selector.</p>
+    <p>This is Paragraph 2 without the class selector.</p>
+    <p class="selector">This is Paragraph 3 with the class selector.</p>
+    <p>This is Paragraph 4 without the class selector.</p>
 </body>
 </html>
